@@ -1,2 +1,5 @@
 To use the flake execute the following in your directory:
-nix flake init --template github:Sobottasgithub/nix-templates#java
+
+```bash
+nix flake new YOURDIRECTORY --template github:Sobottasgithub/nix-templates#TEMPLATE
+```
