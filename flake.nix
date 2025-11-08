@@ -6,12 +6,12 @@
     templates = {
 
       empty = {
-        source = ./empty;
+        path = ./empty;
         description = "Empty flake";
       };
 
       java = {
-        source = ./java;
+        path = ./java;
         description = "Java template";
         welcomeText = ''
           # Getting started
